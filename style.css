@@ -1,0 +1,73 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,56,253,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+form{
+    text-align: center;
+    line-height: 1.8;
+    font-size: large;
+    font-family: cursive;
+    color:white
+}
+#phone
+{
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#fname
+{
+    padding: 10px 5px;
+}
+
+#lname
+{
+    padding:10px 5px;
+}
+
+#mail
+{
+    padding:10px 5px;
+
+}
+
+#birth
+{
+    padding:10px 5px;
+}
+
+#project
+{
+    padding:10px 5px;
+}
+#qualify
+{
+    padding:10px 5px;
+}
+#github
+{
+    padding:10px 5px;
+}
+
+
+#submit
+{
+    padding:10px 5px;
+} 
+
+h1{
+    text-align: center;
+}

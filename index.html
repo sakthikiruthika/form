@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+    
+    <div class="box">
+        <h1>Survey form</h1>
+    <form>
+       
+    <label for="fname">Enter firstname</label><br>
+    <input type="text" id="fname" name="fname"required autocomplete="off">
+
+    <br>
+    <br>
+    <label for="lname">Enter lastname</label><br>
+    <input type="text" id="lname" name="lname" required autocomplete="off">
+
+    <br>
+    <br>
+    <label for="mail">Enter email</label><br>
+    <input type="email" id="mail" name="mail" required autocomplete="off">
+
+    <br><br>
+
+    <label for="birth">Enter date of birth</label><br>
+    <input type="date" id="birth" name="birth" required autocomplete="off">
+
+    <br><br>
+    
+        <label for="qualify">Enter your qualification</label><br>
+        <input type="text" id="qualify" name="qualify" required autocomplete="off" >
+        <br><br>
+        
+        <label for="lang">Language your are good at</label><br><br>
+        <input type="radio" id="java" name="fav_language" value="java" required autocomplete="off">
+    <label for="java">OOPS OF JAVA</label><br>
+    <input type="radio" id="c" name="fav_language" value="c" required autocomplete="off">
+    <label for="c">C LANGUAGE</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript" required>
+    <label for="javascript">JAVASCRIPT</label><br>
+    <input type="radio" id="phython" name="fav_language" value="phython" required autocomplete="off">
+    <label for="phython">OOPS OF PHYTHON</label>
+    <br><br>
+
+    <label for="project">How many projects have you done?</label><br>
+    <input type="number" id="project" name="project" max="100" min="1" required autocomplete="off"><br><br>
+    <label for="des">Describe your project</label><br>
+    <textarea name="des" id="des" cols="30" rows="10" required autocomplete="off"></textarea>
+    <br><br>
+
+    <label for="github">Enter your github or any other url if you have account</label><br>
+    <input type="url" id="github" name="github" required autocomplete="off">
+    <br><br>
+
+    <label for="phone">Enter your telephone number</label><br>
+    <input type="tel" pattern="[0-9]{5}-[0-9]{5}" id="phone" name="phone" placeholder="86754-34568"required autocomplete="off">
+
+    <br><br>
+    <input type="submit" value="SUBMIT" id="submit">
+    
+
+    </form>
+    </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
